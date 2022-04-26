@@ -1,0 +1,48 @@
+@font-face {
+    font-family: heavyHeap;
+    src: url(./heavy_heap/heavy\ heap\ rg.otf);
+  }
+
+@font-face {
+    font-family: titaniaText;
+    src: url(./titania/Titania-Regular.ttf);
+}
+
+*{margin: 0;
+    padding: 0;}
+
+.tituloPagina{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}    
+
+.logoPagina{
+    width: 125px;
+    height: 125px;
+}
+
+.tituloPagina h1{
+    font-family: heavyHeap;
+    font-size: 60px;
+    color: rgb(228, 98, 141);
+    margin: auto;
+}
+
+.navbar{
+    background-color: black;
+}
+
+.navbar-brand{
+    font-family: heavyHeap;
+    color: white !important;
+    font-size: 20px;
+}
+
+
+.nav-link{
+    font-family: heavyHeap;
+    color: white !important;
+    font-size: 20px;
+}
+
