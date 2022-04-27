@@ -34,7 +34,6 @@
     background-color: black;
 }
 
-
 .navbar-brand{
     font-family: heavyHeap;
     color: rgb(228, 98, 141) !important;
@@ -51,4 +50,49 @@
 
 .navbar-toggler{
     border-color: rgb(228, 98, 141) !important;
+}
+
+.footerPaginas{
+    background-color: black;
+    font-family: heavyHeap;
+    color: rgb(228, 98, 141);
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerPaginas li{
+    display: inline-block;
+    justify-content: left;
+}
+
+.footerPaginas a{
+    text-decoration: none;
+    color: rgb(228, 98, 141);
+    list-style: none;
+    font-size: 18px;
+    }
+
+.footerPaginas img{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+
+.footerPaginas h2{
+    text-align: right;
+    font-size: 20px;
+}
+
+.footerPaginas div{
+    padding: 5px 10px;
+}
+
+.footerPaginas ul{
+    padding:0px
+}
+
+i {
+    color:white;
+    padding:5px;
 }
