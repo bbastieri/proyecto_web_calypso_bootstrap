@@ -11,6 +11,15 @@
 *{margin: 0;
     padding: 0;}
 
+ul{
+    list-style: none;
+}
+    
+html{
+    height: 100%;
+}    
+
+
 .tituloPagina{
     background-color: black;
     display: flex;
@@ -96,3 +105,143 @@ i {
     color:white;
     padding:5px;
 }
+
+.mainQuienes{
+    background-color: white;
+}
+
+.mainQuienes h1{
+    font-family: heavyHeap;
+    color:rgb(228, 98, 141);
+    padding: 20px;
+    font-size: 32px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.mainQuienes p{
+    font-family: titaniaText;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    width: 50vw;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+
+.mainProductos{
+    font-family: heavyHeap;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.mainProductos h1{
+    font-family: heavyHeap;
+    color:rgb(228, 98, 141);
+    padding: 20px 20px 0px 20px;
+    font-size: 32px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.mainProductos li{
+    list-style: none;
+    text-decoration: underline;
+    text-decoration-color: rgb(228, 98, 141);
+    padding-bottom: 5px;
+}
+
+.mainProductos span{
+    color: rgb(228, 98, 141);
+}
+
+.mainFaq h1{
+    font-family: heavyHeap;
+    color:rgb(228, 98, 141);
+    padding: 20px;
+    font-size: 32px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.mainFaq span{
+    color: rgb(228, 98, 141);  
+}
+
+.mainFaq h2{
+    font-family: heavyHeap;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.mainFaq a{
+    text-decoration: none;
+    color: rgb(228, 98, 141);
+}
+
+.mainFaq table{
+    border: 2px;
+    border-color: rgb(228, 98, 141);
+    border-style: solid;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: titaniaText;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mainFaq p{
+    font-family: titaniaText;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.mainFaq li{
+    font-family: titaniaText;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.mainContacto{
+    padding-left: 25px;
+}
+
+.mainContacto h1{
+    font-family: heavyHeap;
+    color:rgb(228, 98, 141);
+    padding: 20px 20px 0px 20px;
+    padding-bottom: 30px;
+    font-size: 32px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.mainContacto label{
+    font-family: heavyHeap;
+    font-size: 20px;
+    }
+
+.mainContacto input{
+    margin:10px;
+}   
+
+@media (min-width: 200px) and (max-width:420px) {
+    .tituloPagina h1{
+        font-size:25px
+    }
+}
+
+@media (min-width: 420px) and (max-width:768px) {
+    .tituloPagina h1{
+        font-size: 40px;
+    }
+}    
+
