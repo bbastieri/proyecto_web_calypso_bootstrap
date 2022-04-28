@@ -106,6 +106,16 @@ i {
     padding:5px;
 }
 
+.bannerIzq {
+    background-image: url(./images/flowers.jpg);
+    background-position: center;
+}
+
+.bannerDer{
+    background-image: url(./images/flowers.jpg);
+    background-position: center;
+}
+
 .mainQuienes{
     background-color: white;
 }
@@ -123,7 +133,7 @@ i {
     font-family: titaniaText;
     font-size: 18px;
     font-weight: bold;
-    text-align: left;
+    text-align: justify;
     width: 50vw;
     padding-top: 30px;
     padding-bottom: 50px;
@@ -133,8 +143,6 @@ i {
 .mainProductos{
     font-family: heavyHeap;
     font-size: 20px;
-    padding-left: 30px;
-    padding-bottom: 20px;
 }
 
 .mainProductos h1{
@@ -210,9 +218,6 @@ i {
     padding-bottom: 20px;
 }
 
-.mainContacto{
-    padding-left: 25px;
-}
 
 .mainContacto h1{
     font-family: heavyHeap;
