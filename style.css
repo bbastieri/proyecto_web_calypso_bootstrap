@@ -19,25 +19,28 @@ html{
     height: 100%;
 }    
 
+/* TITULO */
 
 .tituloPagina{
     background-color: black;
     display: flex;
     flex-direction: row;
+    padding-top: 10px;
 }    
 
 .logoPagina{
-    width: 125px;
-    height: 125px;
+    width: 95px;
+    height: 95px;
 }
 
 .tituloPagina h1{
     font-family: heavyHeap;
     font-size: 60px;
     color: rgb(228, 98, 141);
-    /* margin: auto; */
     align-self: center;
 }
+
+/* NAVBAR */
 
 .navbar{
     background-color: black;
@@ -47,6 +50,11 @@ html{
     font-family: heavyHeap;
     color: rgb(228, 98, 141) !important;
     font-size: 25px;
+    transition: transform 0.7s;
+}
+
+.navbar-brand:hover{
+    transform: scale(1.2);
 }
 
 .nav-link{
@@ -60,6 +68,16 @@ html{
 .navbar-toggler{
     border-color: rgb(228, 98, 141) !important;
 }
+
+.navbar li{
+    transition: transform 0.7s;
+}
+
+.navbar li:hover{
+    transform: scale(1.2);
+}
+
+/* FOOTER */
 
 .footerPaginas{
     background-color: black;
@@ -82,19 +100,14 @@ html{
     font-size: 18px;
     }
 
-.footerPaginas img{
-    width: 20px;
-    height: 20px;
-    padding: 5px;
-}
-
 .footerPaginas h2{
     text-align: right;
     font-size: 20px;
 }
 
 .footerPaginas div{
-    padding: 5px 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .footerPaginas ul{
@@ -106,6 +119,8 @@ i {
     padding:5px;
 }
 
+/* BANNERS */
+
 .bannerIzq {
     background-image: url(./images/flowers.jpg);
     background-position: center;
@@ -115,6 +130,10 @@ i {
     background-image: url(./images/flowers.jpg);
     background-position: center;
 }
+
+/* CAROUSEL */
+
+/* CONTENIDO QUIENES */
 
 .mainQuienes{
     background-color: white;
@@ -134,11 +153,14 @@ i {
     font-size: 18px;
     font-weight: bold;
     text-align: justify;
-    width: 50vw;
+    width: 40vw;
     padding-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 22px;
     padding-left: 30px;
+    padding-right: 30px;
 }
+
+/* CONTENIDO PRODUCTOS */
 
 .mainProductos{
     font-family: heavyHeap;
@@ -158,12 +180,14 @@ i {
     list-style: none;
     text-decoration: underline;
     text-decoration-color: rgb(228, 98, 141);
-    padding-bottom: 5px;
+    padding-bottom: 11px;
 }
 
 .mainProductos span{
     color: rgb(228, 98, 141);
 }
+
+/* CONTENIDO FAQ */
 
 .mainFaq h1{
     font-family: heavyHeap;
@@ -218,6 +242,7 @@ i {
     padding-bottom: 20px;
 }
 
+/* CONTENIDO CONTACTO */
 
 .mainContacto h1{
     font-family: heavyHeap;
@@ -235,8 +260,10 @@ i {
     }
 
 .mainContacto input{
-    margin:10px;
+    margin-bottom: 25px;
 }   
+
+/* MEDIA QUERIES */
 
 @media (min-width: 200px) and (max-width:420px) {
     .tituloPagina h1{
