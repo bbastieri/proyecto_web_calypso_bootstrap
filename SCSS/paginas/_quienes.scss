@@ -1,7 +1,7 @@
 .mainQuienes{
     background-color: $color-fondo2;
 
-    .h1{
+    h1{
         font-family: $fuente-principal;
         color: $color-fuente1;
         padding: 20px;
@@ -10,7 +10,7 @@
         text-decoration: underline;
     }
 
-    .p{
+    p{
         font-family: $fuente_secundaria;
         font-size: 18px;
         font-weight: bold;

@@ -1,6 +1,6 @@
 .mainFaq{
 
-    .h1{
+    h1{
         font-family: $fuente-principal;
         color: $color-fuente1;
         padding: 20px;
@@ -9,23 +9,23 @@
         text-decoration: underline; 
     }
 
-    .span{
+    span{
          color: $color-fuente1;
     }
 
-    .h2{
+    h2{
         font-family: $fuente-principal;
         text-align: center;
         padding: 20px;
         font-size: 25px;
     }
 
-    .a{
+    a{
         text-decoration: none;
-        color: $fuente-principal; 
+        color: $color-fuente1; 
     }
 
-    .table{
+    table{
         border: 2px;
         border-color: $color-fuente1;
         border-style: solid;
@@ -37,7 +37,7 @@
         font-weight: bold;
     }
 
-    .p {
+    p {
         font-family: $fuente_secundaria;
         font-size: 16px;
         font-weight: bold;
@@ -45,7 +45,7 @@
         padding-bottom: 20px;
     }
 
-    .li{
+    li{
         font-family: $fuente_secundaria;
         font-size: 16px;
         font-weight: bold;
