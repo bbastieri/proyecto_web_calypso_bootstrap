@@ -1,0 +1,37 @@
+.navbar{
+    background-color: $color-fondo;
+
+    &-brand{
+        font-family: $fuente-principal;
+        color: $color-fuente1 !important;
+        font-size: 22px;
+        transition: transform 0.7s;
+        text-decoration: underline;
+        text-decoration-color: $color-fuente2; 
+
+            &:hover{
+            transform: scale(1.2);
+            } 
+    }
+
+    &toggler{
+        border-color: $color-fuente1 !important;
+    }
+
+    .li{
+        transition: transform 0.7s;
+
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+}
+
+.nav-link{
+    font-family: $fuente-principal;
+    color: $color-fuente2 !important;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: $color-fuente1;
+}
+

@@ -49,8 +49,10 @@ html{
 .navbar-brand{
     font-family: heavyHeap;
     color: rgb(228, 98, 141) !important;
-    font-size: 25px;
+    font-size: 22px;
     transition: transform 0.7s;
+    text-decoration: underline;
+    text-decoration-color: white;
 }
 
 .navbar-brand:hover{

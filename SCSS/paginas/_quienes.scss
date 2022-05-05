@@ -1,0 +1,24 @@
+.mainQuienes{
+    background-color: $color-fondo2;
+
+    .h1{
+        font-family: $fuente-principal;
+        color: $color-fuente1;
+        padding: 20px;
+        font-size: 32px;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .p{
+        font-family: $fuente_secundaria;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: justify;
+        width: 40vw;
+        padding-top: 30px;
+        padding-bottom: 22px;
+        padding-left: 30px;
+        padding-right: 30px; 
+    }
+}
