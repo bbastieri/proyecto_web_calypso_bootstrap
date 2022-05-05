@@ -2,7 +2,7 @@
     font-family: $fuente-principal;
     font-size: 20px;
 
-    .h1{
+    h1{
         font-family: $fuente-principal;
         color: $color-fuente1;
         padding: 20px 20px 0px 20px;
@@ -11,14 +11,14 @@
         text-decoration: underline;
     }
 
-    .li{
+    li{
         list-style: none;
         text-decoration: underline;
         text-decoration-color: $color-fuente1;
         padding-bottom: 11px;
     }
 
-    .span{
+    span{
          color: $color-fuente1;
     }
 }
