@@ -1,6 +1,6 @@
 @font-face {
   font-family: heavyHeap;
-  src: url(../heavy_heap/heavy_heap_rg.ttf); }
+  src: url(../../heavy_heap/heavy_heap-rg.otf); }
 
 @font-face {
   font-family: titaniaText;
@@ -113,6 +113,14 @@ i {
     padding-bottom: 22px;
     padding-left: 30px;
     padding-right: 30px; }
+
+.fotoQuienes {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: flex-end; }
 
 .mainProductos {
   font-family: heavyHeap;
