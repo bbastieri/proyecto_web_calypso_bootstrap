@@ -1,13 +1,13 @@
 .navbar{
-    background-color: $color-fondo;
+    background-color: map-get($paletaColores, color3);
 
     &-brand{
         font-family: $fuente-principal;
-        color: $color-fuente1 !important;
-        font-size: 22px;
+        color: map-get($paletaColores , color1) !important;
+        font-size: map-get($tamanioTipografia , iconosNavbar);
         transition: transform 0.7s;
         text-decoration: underline;
-        text-decoration-color: $color-fuente2; 
+        text-decoration-color: map-get($paletaColores, color2); 
 
             &:hover{
             transform: scale(1.2);
@@ -15,7 +15,7 @@
     }
 
     &toggler{
-        border-color: $color-fuente1 !important;
+        border-color: map-get($paletaColores, color1 ) !important;
     }
 
     li{
@@ -29,8 +29,8 @@
 
 .nav-link{
     font-family: $fuente-principal;
-    color: $color-fuente2 !important;
-    font-size: 20px;
+    color: map-get($paletaColores, color2) !important;
+    font-size: map-get($tamanioTipografia, iconosNavbar);
     text-decoration: underline;
     text-decoration-color: $color-fuente1;
 }

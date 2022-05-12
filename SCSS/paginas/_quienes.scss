@@ -1,19 +1,13 @@
 .mainQuienes{
-    background-color: $color-fondo2;
+    background-color: map-get($paletaColores, color2);
 
     h1{
-        font-family: $fuente-principal;
-        color: $color-fuente1;
-        padding: 20px;
-        font-size: 32px;
-        text-align: center;
-        text-decoration: underline;
+        @extend %tituloPaginas;
     }
 
     p{
         font-family: $fuente_secundaria;
-        font-size: 18px;
-        font-weight: bold;
+        font-size: map-get($tamanioTipografia , textosGenerales);
         text-align: justify;
         width: 40vw;
         padding-top: 30px;

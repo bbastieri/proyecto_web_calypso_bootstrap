@@ -1,14 +1,9 @@
 .mainProductos{
     font-family: $fuente-principal;
-    font-size: 20px;
+    font-size: map-get($tamanioTipografia, iconosNavbar);
 
     h1{
-        font-family: $fuente-principal;
-        color: $color-fuente1;
-        padding: 20px 20px 0px 20px;
-        font-size: 32px;
-        text-align: center;
-        text-decoration: underline;
+        @extend %tituloPaginas;
     }
 
     li{

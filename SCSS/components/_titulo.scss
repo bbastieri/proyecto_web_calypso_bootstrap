@@ -1,13 +1,13 @@
 .tituloPagina{
-    background-color: $color-fondo;
+    background-color: map-get($paletaColores, color3);
     display: flex;
     flex-direction: row;
     padding-top: 10px;
 
     h1{
-    font-family: heavyHeap;
-    font-size: 60px;
-    color: $color-fuente1;
+    font-family: $fuente-principal;
+    font-size: map-get($tamanioTipografia, tituloMarca);
+    color: map-get($paletaColores, color1);
     align-self: center;
     }
 }    
