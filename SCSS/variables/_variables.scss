@@ -5,3 +5,28 @@ $color-fondo2: white;
 $fuente-principal: heavyHeap;
 $fuente_secundaria: titaniaText;
 
+$paletaColores:(
+    color1: rgb(228, 98, 141),
+    color2: white,
+    color3: black,
+);
+
+$tamanioTipografia:(
+    tituloMarca: 60px,
+    tituloPaginas: 32px,
+    iconosNavbar: 20px,
+    titulosFaq: 25px,
+    textosGenerales:18px
+);
+
+%tituloPaginas{
+    font-family: heavyHeap;
+    color: map-get($paletaColores,color1);
+    font-size: map-get($tamanioTipografia, tituloPaginas);
+    padding: 20px;
+    text-align: center;
+    text-decoration: underline;
+};
+
+
+
