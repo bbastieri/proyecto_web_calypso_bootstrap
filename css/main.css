@@ -168,6 +168,10 @@ i {
   text-align: center;
   padding-bottom: 20px; }
 
+.tablaFaq {
+  width: 100%;
+  overflow-x: scroll; }
+
 .mainContacto label {
   font-family: heavyHeap;
   font-size: 20px; }
