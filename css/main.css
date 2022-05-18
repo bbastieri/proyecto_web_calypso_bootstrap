@@ -1,13 +1,13 @@
 @font-face {
-  font-family: heavyHeap;
-  src: url(../../heavy_heap/heavy_heap-rg.otf); }
-
-@font-face {
   font-family: titaniaText;
   src: url(../titania/Titania-Regular.ttf); }
 
+@font-face {
+  font-family: winter;
+  src: url(../../wintter/Wintter.ttf); }
+
 .mainQuienes h1, .mainProductos h1, .mainFaq h1, .mainContacto h1 {
-  font-family: heavyHeap;
+  font-family: winter;
   color: #e4628d;
   font-size: 32px;
   padding: 20px;
@@ -30,7 +30,7 @@ html {
   flex-direction: row;
   padding-top: 10px; }
   .tituloPagina h1 {
-    font-family: heavyHeap;
+    font-family: titaniaText;
     font-size: 60px;
     color: #e4628d;
     align-self: center; }
@@ -42,7 +42,7 @@ html {
 .navbar {
   background-color: black; }
   .navbar-brand {
-    font-family: heavyHeap;
+    font-family: titaniaText;
     color: #e4628d !important;
     font-size: 20px;
     transition: transform 0.7s;
@@ -58,7 +58,7 @@ html {
       transform: scale(1.2); }
 
 .nav-link {
-  font-family: heavyHeap;
+  font-family: titaniaText;
   color: white !important;
   font-size: 20px;
   text-decoration: underline;
@@ -74,7 +74,7 @@ html {
 
 .footerPaginas {
   background-color: black;
-  font-family: heavyHeap;
+  font-family: titaniaText;
   color: #e4628d;
   font-size: 20px;
   display: flex;
@@ -123,7 +123,7 @@ i {
   align-items: flex-end; }
 
 .mainProductos {
-  font-family: heavyHeap;
+  font-family: titaniaText;
   font-size: 20px; }
   .mainProductos li {
     list-style: none;
@@ -137,7 +137,7 @@ i {
   color: #e4628d; }
 
 .mainFaq h2 {
-  font-family: heavyHeap;
+  font-family: titaniaText;
   text-align: center;
   padding: 20px;
   font-size: 25px; }
@@ -169,11 +169,11 @@ i {
   padding-bottom: 20px; }
 
 .tablaFaq {
-  width: 100%;
+  width: 90%;
   overflow-x: scroll; }
 
 .mainContacto label {
-  font-family: heavyHeap;
+  font-family: titaniaText;
   font-size: 20px; }
 
 .mainContacto input {
