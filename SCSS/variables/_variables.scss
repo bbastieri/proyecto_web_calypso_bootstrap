@@ -20,9 +20,9 @@ $tamanioTipografia:(
 );
 
 %tituloPaginas{
-    font-family: $fuente-principal;
+    font-family: titaniaText;
     color: map-get($paletaColores,color1);
-    font-size: map-get($tamanioTipografia, tituloPaginas);
+    font-size: map-get($tamanioTipografia,tituloPaginas);
     padding: 20px;
     text-align: center;
     text-decoration: underline;

@@ -7,7 +7,7 @@
   src: url(../../wintter/Wintter.ttf); }
 
 .mainQuienes h1, .mainProductos h1, .mainFaq h1, .mainContacto h1 {
-  font-family: winter;
+  font-family: titaniaText;
   color: #e4628d;
   font-size: 32px;
   padding: 20px;
@@ -89,7 +89,8 @@ html {
     font-size: 18px; }
   .footerPaginas h2 {
     text-align: right;
-    font-size: 20px; }
+    font-size: 20px;
+    padding: 5px; }
   .footerPaginas div {
     padding-left: 5px;
     padding-right: 5px; }
@@ -168,9 +169,10 @@ i {
   text-align: center;
   padding-bottom: 20px; }
 
-.tablaFaq {
-  width: 90%;
-  overflow-x: scroll; }
+.mainContacto form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 .mainContacto label {
   font-family: titaniaText;

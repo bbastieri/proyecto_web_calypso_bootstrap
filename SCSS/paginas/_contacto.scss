@@ -4,9 +4,15 @@
         @extend %tituloPaginas;
     }
 
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     label{
         font-family: $fuente-principal;
-        font-size: map-get($tamanioTipografia, iconosNavbar); 
+        font-size: map-get($tamanioTipografia, iconosNavbar);
     }
 
     input{

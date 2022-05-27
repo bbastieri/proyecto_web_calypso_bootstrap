@@ -21,6 +21,7 @@
     h2{
         text-align: right;
         font-size: map-get($tamanioTipografia, iconosNavbar);
+        padding:5px;
     }
 
     div{
@@ -33,4 +34,5 @@
 i {
     color: map-get($paletaColores, color2);
     padding:5px;
+
 }
