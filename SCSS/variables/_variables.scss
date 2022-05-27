@@ -20,7 +20,7 @@ $tamanioTipografia:(
 );
 
 %tituloPaginas{
-    font-family: winter;
+    font-family: $fuente-principal;
     color: map-get($paletaColores,color1);
     font-size: map-get($tamanioTipografia, tituloPaginas);
     padding: 20px;
