@@ -18,3 +18,25 @@
     }
 }
 
+.falsoCarousel{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    overflow-x: scroll;
+    width: 60vvw;
+    margin: auto;
+
+    &.__items{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+.falsoCarousel__fotos{
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+}
