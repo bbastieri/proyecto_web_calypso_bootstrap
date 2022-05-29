@@ -17,11 +17,24 @@
     }
 }
 
-.fotoQuienes{
-    width: 400px;
-    height: 400px;
+.contenidoQuienes{
     display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: flex-end;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
 }
+
+.textoQuienes{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagenQuienes{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:right;
+    width: 350px;
+    height: 350px;
+    padding: 5px;
+}
+

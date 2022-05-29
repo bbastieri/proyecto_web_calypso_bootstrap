@@ -50,7 +50,7 @@ html {
     text-decoration-color: white; }
     .navbar-brand:hover {
       transform: scale(1.2); }
-  .navbartoggler {
+  .navbar-toggler {
     border-color: #e4628d !important; }
   .navbar li {
     transition: transform 0.7s; }
@@ -115,13 +115,22 @@ i {
     padding-left: 30px;
     padding-right: 30px; }
 
-.fotoQuienes {
-  width: 400px;
-  height: 400px;
+.contenidoQuienes {
   display: flex;
-  flex-direction: row;
-  justify-content: end;
-  align-items: flex-end; }
+  flex-wrap: wrap;
+  align-items: flex-start; }
+
+.textoQuienes {
+  display: flex;
+  flex-direction: column; }
+
+.imagenQuienes {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: right;
+  width: 350px;
+  height: 350px;
+  padding: 5px; }
 
 .mainProductos {
   font-family: titaniaText;
@@ -151,6 +160,10 @@ i {
   height: 200px;
   width: 200px;
   margin: 15px; }
+
+.falsoCarousel_texto {
+  text-align: center;
+  font-size: 14px; }
 
 .mainFaq span {
   color: #e4628d; }

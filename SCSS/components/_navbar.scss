@@ -14,8 +14,8 @@
             } 
     }
 
-    &toggler{
-        border-color: $color-fuente1 !important;
+    &-toggler{
+        border-color: map-get($paletaColores, color1) !important;
     }
 
     li{

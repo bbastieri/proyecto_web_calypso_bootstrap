@@ -25,6 +25,7 @@
     overflow-x: scroll;
     width: 60vvw;
     margin: auto;
+    
 
     &.__items{
         display: flex;
@@ -39,4 +40,9 @@
     height: 200px;
     width: 200px;
     margin: 15px;
+}
+
+.falsoCarousel_texto{
+    text-align: center;
+    font-size: map-get($tamanioTipografia, titulosProductos);
 }
