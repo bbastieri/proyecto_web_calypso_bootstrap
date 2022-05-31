@@ -139,7 +139,8 @@ i {
     list-style: none;
     text-decoration: underline;
     text-decoration-color: #e4628d;
-    padding-bottom: 11px; }
+    padding-top: 10px;
+    padding-bottom: 5px; }
   .mainProductos span {
     color: #e4628d; }
 
@@ -214,8 +215,16 @@ i {
 
 @media (min-width: 200px) and (max-width: 420px) {
   .tituloPagina h1 {
-    font-size: 25px; } }
+    font-size: 25px; }
+  .mainQuienes p {
+    width: 90vw;
+    padding: 5px; }
+  .footerPaginas {
+    font-size: 14px; } }
 
 @media (min-width: 420px) and (max-width: 768px) {
   .tituloPagina h1 {
-    font-size: 40px; } }
+    font-size: 40px; }
+  .mainQuienes p {
+    width: 90vw;
+    padding: 5px; } }

@@ -2,10 +2,24 @@
     .tituloPagina h1{
         font-size:25px
     }
+
+    .mainQuienes p{
+        width: 90vw;
+        padding: 5px;
+    }
+
+    .footerPaginas{
+        font-size: map-get($tamanioTipografia, titulosProductos);
+    }
 }
 
 @media (min-width: 420px) and (max-width:768px) {
     .tituloPagina h1{
         font-size: 40px;
+    }
+
+    .mainQuienes p{
+        width: 90vw;
+        padding:5px,
     }
 }    
