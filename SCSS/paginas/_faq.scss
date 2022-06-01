@@ -24,11 +24,11 @@
         border: 2px;
         border-color: map-get($paletaColores, color1);
         border-style: solid;
-        margin: auto;
+        /* margin: auto; */
         margin-top: 20px;
         margin-bottom: 20px;
         font-family: $fuente_secundaria;
-        font-size: map-get($tamanioTipografia, iconosNavbar);
+        font-size: map-get($tamanioTipografia, textosGenerales);
     }
 
     p {

@@ -8,7 +8,7 @@
 
     li{
         display: inline-block;
-        justify-content: left;
+        justify-content: space-evenly;
     }
 
     a{
@@ -26,7 +26,8 @@
 
     div{
         padding-left: 5px;
-        padding-right: 5px;        
+        padding-right: 5px;
+        display: flex;
     }
 
 }
@@ -34,5 +35,5 @@
 i {
     color: map-get($paletaColores, color2);
     padding:5px;
-
 }
+
