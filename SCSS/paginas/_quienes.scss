@@ -20,19 +20,17 @@
 .contenidoQuienes{
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
-    
+    align-content: space-evenly;
 }
 
 .textoQuienes{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .imagenQuienes{
     display: flex;
-    flex-direction: row-reverse;
-    justify-content:right;
+    flex-direction: row;
     width: 350px;
     height: 350px;
     padding: 5px;
